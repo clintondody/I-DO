@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Plan"
+        android:icon="@drawable/ic_plan"
+        android:id="@+id/plan"/>
+    <item android:title="Education"
+        android:icon="@drawable/ic_education"
+        android:id="@+id/education"/>
+    <item android:title="Profile"
+        android:icon="@drawable/ic_profile"
+        android:id="@+id/profile"/>
+</menu>
