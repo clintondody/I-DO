@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5ECFF">
+
+    <ImageView
+        android:id="@+id/imageOtpSukses"
+        android:layout_width="292dp"
+        android:layout_height="222dp"
+        android:layout_marginLeft="58dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginRight="58dp"
+        android:layout_marginBottom="352dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/kode_otp_sukses" />
+
+    <TextView
+        android:id="@+id/textberhasil"
+        android:layout_width="282dp"
+        android:layout_height="20dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginRight="54dp"
+        android:layout_marginBottom="296dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Yeay! Akunmu berhasil diperbarui"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageKembali"
+        android:layout_width="358dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_blue" />
+
+    <TextView
+        android:id="@+id/textKembali"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Kembali"
+        android:textColor="@color/putih"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageKembali"
+        app:layout_constraintEnd_toEndOf="@+id/imageKembali"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/imageKembali"
+        app:layout_constraintTop_toTopOf="@+id/imageKembali" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -31,7 +31,7 @@
             android:layout_marginTop="30dp"
             android:background="@drawable/btn_blue"
             android:padding="16dp"
-            android:textColor="@color/white"
+            android:textColor="@color/putih"
             android:inputType="textPersonName"
             android:text="Password" />
 

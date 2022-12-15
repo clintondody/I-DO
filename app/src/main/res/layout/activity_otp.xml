@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5ECFF">
+
+    <ImageView
+        android:id="@+id/imageSurat"
+        android:layout_width="194dp"
+        android:layout_height="194dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="126dp"
+        android:layout_marginRight="100dp"
+        android:layout_marginBottom="524dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/surat_verifikasi_akun" />
+
+    <TextView
+        android:id="@+id/verifikasi"
+        android:layout_width="214dp"
+        android:layout_height="36dp"
+        android:layout_marginLeft="96dp"
+        android:layout_marginTop="348dp"
+        android:layout_marginRight="96dp"
+        android:layout_marginBottom="462dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Verifikasi akunmu"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:layout_width="248dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginRight="72dp"
+        android:layout_marginBottom="420dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Kode verifikasi telah masuk ke emailmu"
+        android:textColor="@color/black"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kode1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="266dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_putih" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="266dp"
+        android:layout_marginBottom="328dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kode2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="204dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_putih" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="136dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="204dp"
+        android:layout_marginBottom="328dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/kode3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_putih" />
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="198dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="144dp"
+        android:layout_marginBottom="328dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/kode4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginBottom="328dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bg_putih" />
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="468dp"
+        android:layout_marginRight="82dp"
+        android:layout_marginBottom="328dp"
+        android:ems="10"
+        android:hint="@string/app_name"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="294dp"
+        android:text="00.00"
+        android:textSize="12dp"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/BelumMenerimaKode"
+        android:layout_width="146dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="86dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="162dp"
+        android:layout_marginBottom="258dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Belum menerima kode?"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/KirimUlang"
+        android:layout_width="70dp"
+        android:layout_height="18dp"
+        android:layout_marginLeft="232dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="90dp"
+        android:layout_marginBottom="258dp"
+        android:fontFamily="@font/poppinsregular"
+        android:text="Kirim ulang"
+        android:textColor="@color/ungu"
+        android:textSize="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/btnVerifikasi"
+        android:layout_width="368dp"
+        android:layout_height="54dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="626dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn_blue" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/poppinsbold"
+        android:text="Verifikasi"
+        android:textColor="@color/putih"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btnVerifikasi"
+        app:layout_constraintEnd_toEndOf="@+id/btnVerifikasi"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btnVerifikasi"
+        app:layout_constraintTop_toTopOf="@+id/btnVerifikasi" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

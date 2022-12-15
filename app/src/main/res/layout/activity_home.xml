@@ -25,8 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         android:background="@color/bg_navbar"
-        app:itemIconTint="@color/color"
-        app:itemTextColor="@color/color"
+        app:itemIconTint="@color/ungu"
+        app:itemTextColor="@color/ungu"
         app:labelVisibilityMode="labeled"
         app:menu="@menu/botto_nav"/>
 
