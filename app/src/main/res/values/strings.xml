@@ -2,4 +2,23 @@
     <string name="app_name">I-DO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="berita_text">
+        Jakarta, CNN Indonesia -- Merokok bak adiksi yang sulit disetop. Zat adiktif bernama nikotin di dalamnya membikin banyak orang ketergantungan pada rokok. Alhasil, berhenti merokok jadi sesuatu yang musykil bagi sebagian orang. \n \n
+        Di Indonesia, jumlah perokok mengalami peningkatan setiap tahunnya. Berdasarkan Riset Kesehatan Dasar (Riskesdas) 2013, ada sekitar 58 juta perokok aktif dimulai dari usia 10 tahun ke atas. \n \n
+        Padahal, bahaya merokok mengintai di depan mata. Mulai dari penyakit paru obstruktif kronis, kanker paru-paru, serangan jantung, dan masih banyak lagi. \n \n
+        Dengan sederet bahaya, ada baiknya jika Anda mencoba untuk berhenti merokok meski prosesnya tak mudah.
+        Berhenti merokok memang bukan hal mudah. \n \n Ada sederet dampak yang bisa dirasakan tubuh saat merespons rencana berhenti merokok yang tengah Anda lakoni.
+        Beberapa pekan pertama biasanya menjadi periode yang sulit. Tubuh akan mengalami proses regeneratif. \n \n Dibutuhkan beberapa bulan hingga akhirnya seseorang terbebas dari candu rokok dan menjadi mantan perokok.
+        Berikut timeline apa yang bakal terjadi pada tubuh saat ada berhenti merokok, mengutip Healthline dan Medical News Today. \n \n
+        20 menit setelah rokok terakhir Dampak positif dari berhenti merokok dimulai sejak 20 menit setelah rokok terakhir. Tekanan darah dan denyut nadi Anda akan kembali pada level normal.
+    </string>
 </resources>

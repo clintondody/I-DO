@@ -9,5 +9,8 @@
     <color name="bg_navbar">#FF3E206D</color>
     <color name="bg_latar">#F5ECFF</color>
     <color name="ungu">#916DD5</color>
-    <color name="putih">#FFFFFFFF</color>
+    <color name="biru">#3E206D</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="putih">#FFFFFFFF</color>827D85
+    <color name="silver">#827D85</color>
 </resources>
