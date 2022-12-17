@@ -4,190 +4,113 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/bg_register">
+    tools:context=".register_Activity"
+    android:background="@drawable/bg_register"
+    android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/imageLoginRegister"
-        android:layout_width="59dp"
-        android:layout_height="93dp"
-        android:layout_marginLeft="166dp"
-        android:layout_marginTop="150dp"
-        android:layout_marginRight="166dp"
-        android:layout_marginBottom="602dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_ido" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <ImageView
-        android:id="@+id/AlamatEmailRegister"
-        android:layout_width="358dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="338dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="490dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/bg_buttom_putih" />
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="130dp"
+            app:srcCompat="@drawable/bg_ido" />
 
-    <TextView
-        android:id="@+id/Email"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="256dp"
-        android:layout_marginBottom="18dp"
-        android:fontFamily="@font/poppinsregular"
-        android:hint="Alamat E-mail"
-        android:textSize="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/AlamatEmailRegister"
-        app:layout_constraintEnd_toEndOf="@+id/AlamatEmailRegister"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/AlamatEmailRegister"
-        app:layout_constraintTop_toTopOf="@+id/AlamatEmailRegister" />
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_putih"
+            android:padding="20dp"
+            android:inputType="textPersonName"
+            android:hint="Alamat E-mail"
+            android:textSize="12dp"
+            android:layout_marginTop="70dp" />
 
-    <ImageView
-        android:id="@+id/PasswordRegister"
-        android:layout_width="358dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="402dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="390dp"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleEnabled="true"
-        app:srcCompat="@drawable/bg_buttom_putih" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_putih"
+            android:padding="11dp"
+            android:orientation="horizontal">
 
-    <TextView
-        android:id="@+id/textViewPassword"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="284dp"
-        android:layout_marginBottom="18dp"
-        android:fontFamily="@font/poppinsregular"
-        android:hint="Password"
-        android:inputType="textPassword"
-        android:textSize="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/PasswordRegister"
-        app:layout_constraintEnd_toEndOf="@+id/PasswordRegister"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/PasswordRegister"
-        app:layout_constraintTop_toTopOf="@+id/PasswordRegister"
-        tools:ignore="TouchTargetSizeCheck" />
+            <EditText
+                android:id="@+id/editTextTextPersonName9"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/bg_putih"
+                android:hint="Password"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="12dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/textInputLayoutPassword"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/PasswordRegister"
-        app:layout_constraintEnd_toEndOf="@+id/PasswordRegister"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/PasswordRegister"
-        app:layout_constraintTop_toTopOf="@+id/PasswordRegister"
-        app:passwordToggleEnabled="true" />
+            <ImageView
+                android:id="@+id/imageView27"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/eye_password" />
+        </LinearLayout>
 
-    <ImageView
-        android:id="@+id/Konfirmasi"
-        android:layout_width="358dp"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="486dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="306dp"
-        android:inputType="textPassword"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:passwordToggleEnabled="true"
-        app:srcCompat="@drawable/bg_buttom_putih" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_putih"
+            android:padding="11dp"
+            android:layout_marginTop="30dp">
 
-    <TextView
-        android:id="@+id/textKonfirmasi"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="18dp"
-        android:layout_marginEnd="218dp"
-        android:layout_marginBottom="18dp"
-        android:fontFamily="@font/poppinsregular"
-        android:hint="Konfirmasi Password"
-        android:inputType="textPassword"
-        android:textSize="12dp"
-        app:layout_constraintBottom_toBottomOf="@+id/Konfirmasi"
-        app:layout_constraintEnd_toEndOf="@+id/Konfirmasi"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/Konfirmasi"
-        app:layout_constraintTop_toTopOf="@+id/Konfirmasi"
-        tools:ignore="TouchTargetSizeCheck" />
+            <EditText
+                android:id="@+id/editTextTextPersonName10"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/bg_putih"
+                android:hint="Konfirmasi Password"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:textSize="12dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/InputLayoutKonfirmasi"
-        android:layout_width="24dp"
-        android:layout_height="24dp"
-        android:layout_marginStart="320dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="32dp"
-        android:layout_marginBottom="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/Konfirmasi"
-        app:layout_constraintEnd_toEndOf="@+id/Konfirmasi"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/Konfirmasi"
-        app:layout_constraintTop_toTopOf="@+id/Konfirmasi"
-        app:passwordToggleEnabled="true" />
+            <ImageView
+                android:id="@+id/imageView28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                app:srcCompat="@drawable/eye_password" />
 
-    <ImageView
-        android:id="@+id/btnDaftar"
-        android:layout_width="358dp"
-        android:layout_height="54dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="626dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="166dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn_blue" />
+        </LinearLayout>
 
-    <TextView
-        android:id="@+id/textDaftar"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="168dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="168dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/poppinsbold"
-        android:text="Daftar"
-        android:textColor="@color/putih"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/btnDaftar"
-        app:layout_constraintEnd_toEndOf="@+id/btnDaftar"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/btnDaftar"
-        app:layout_constraintTop_toTopOf="@+id/btnDaftar" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/btn_blue"
+            android:padding="11dp"
+            android:layout_marginTop="87dp">
 
+            <TextView
+                android:id="@+id/textView30"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Daftar"
+                android:layout_marginLeft="145dp"
+                android:layout_marginRight="110dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/putih" />
+        </LinearLayout>
+
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

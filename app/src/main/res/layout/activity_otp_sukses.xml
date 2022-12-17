@@ -4,70 +4,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5ECFF">
+    tools:context=".otp_sukses_Activity"
+    android:background="@color/bg_latar"
+    android:padding="16dp">
 
-    <ImageView
-        android:id="@+id/imageOtpSukses"
-        android:layout_width="292dp"
-        android:layout_height="222dp"
-        android:layout_marginLeft="58dp"
-        android:layout_marginTop="270dp"
-        android:layout_marginRight="58dp"
-        android:layout_marginBottom="352dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/kode_otp_sukses" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/textberhasil"
-        android:layout_width="282dp"
-        android:layout_height="20dp"
-        android:layout_marginLeft="54dp"
-        android:layout_marginTop="532dp"
-        android:layout_marginRight="54dp"
-        android:layout_marginBottom="296dp"
-        android:fontFamily="@font/poppinsmedium"
-        android:text="Yeay! Akunmu berhasil diperbarui"
-        android:textColor="@color/black"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="291dp"
+            android:layout_height="222dp"
+            app:srcCompat="@drawable/kode_otp_sukses"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="57dp"
+            android:layout_marginRight="41dp"/>
 
-    <ImageView
-        android:id="@+id/imageKembali"
-        android:layout_width="358dp"
-        android:layout_height="54dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="626dp"
-        android:layout_marginRight="16dp"
-        android:layout_marginBottom="166dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/btn_blue" />
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Yeay! Akunmu berhasil diperbarui"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppinsmedium"
+            android:layout_marginTop="39dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"/>
 
-    <TextView
-        android:id="@+id/textKembali"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginTop="16dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginBottom="16dp"
-        android:fontFamily="@font/poppinsbold"
-        android:text="Kembali"
-        android:textColor="@color/putih"
-        android:textSize="16dp"
-        app:layout_constraintBottom_toBottomOf="@+id/imageKembali"
-        app:layout_constraintEnd_toEndOf="@+id/imageKembali"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageKembali"
-        app:layout_constraintTop_toTopOf="@+id/imageKembali" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="77dp"
+            android:background="@drawable/btn_blue">
 
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kembali"
+                android:layout_marginLeft="135dp"
+                android:layout_marginRight="110dp"
+                android:textSize="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/putih"
+                android:padding="11dp" />
+        </LinearLayout>
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

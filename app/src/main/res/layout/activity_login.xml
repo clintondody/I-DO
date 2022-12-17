@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login_Activity"
+    android:background="@drawable/bg_register"
+    android:padding="16dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView15"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="130dp"
+            app:srcCompat="@drawable/bg_ido" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:background="@drawable/bg_putih"
+            android:hint="Alamat E-mail"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="14dp"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/bg_putih"
+            android:layout_marginTop="30dp">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:background="@drawable/bg_putih"
+                android:hint="Password"
+                android:inputType="textPersonName"
+                android:padding="14dp"
+                android:textSize="12dp"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/imageView26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/eye_password"
+                android:layout_marginTop="13dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="10dp"
+                android:text="Lupa Password?"
+                android:textColor="@color/ungu"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="12dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/btn_blue"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/textView32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:layout_marginLeft="155dp"
+                    android:layout_marginRight="140dp"
+                    android:textSize="12dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/putih"
+                    android:padding="11dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/btn_ungu"
+                android:layout_marginTop="15dp">
+
+                <TextView
+                    android:id="@+id/textView36"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:text="Login dengan"
+                    android:textSize="11dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/biru"
+                    android:padding="11dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:padding="11dp"
+                    app:srcCompat="@drawable/buttom_google" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp">
+
+                <TextView
+                    android:id="@+id/textView38"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="80dp"
+                    android:text="Belum punya akun?" />
+
+                <EditText
+                    android:id="@+id/editTextTextMultiLine"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="120dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:gravity="start|top"
+                    android:inputType="textMultiLine"
+                    android:minWidth="48dp"
+                    android:text="Daftar"
+                    android:textColor="@color/ungu"
+                    android:textSize="12dp"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bg_garis"
+                    android:layout_marginTop="40dp"/>
+
+                <TextView
+                    android:id="@+id/textView28"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Atau"
+                    android:textSize="11dp"
+                    android:textColor="@color/ungu"
+                    android:fontFamily="@font/poppinsregular"
+                    android:layout_marginTop="30dp"/>
+
+                <ImageView
+                    android:id="@+id/imageView25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/bg_garis"
+                    android:layout_marginTop="40dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView29"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lanjutkan tanpa Login"
+                    android:textColor="@color/ungu"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textSize="16dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="95dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
