@@ -41,7 +41,7 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName9"
-                android:layout_width="330dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:background="@drawable/bg_putih"
@@ -51,26 +51,19 @@
                 android:textSize="12dp"
                 tools:ignore="TouchTargetSizeCheck" />
 
-            <ImageView
-                android:id="@+id/imageView27"
-                android:layout_width="1dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/eye_password" />
         </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
             android:background="@drawable/bg_putih"
             android:padding="11dp"
-            android:layout_marginTop="30dp">
+            android:orientation="horizontal">
 
             <EditText
                 android:id="@+id/editTextTextPersonName10"
-                android:layout_width="330dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:background="@drawable/bg_putih"
@@ -80,13 +73,6 @@
                 android:textSize="12dp"
                 tools:ignore="TouchTargetSizeCheck" />
 
-            <ImageView
-                android:id="@+id/imageView28"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:layout_marginTop="10dp"
-                app:srcCompat="@drawable/eye_password" />
 
         </LinearLayout>
 

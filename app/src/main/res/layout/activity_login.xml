@@ -42,7 +42,7 @@
 
             <EditText
                 android:id="@+id/editTextTextPersonName3"
-                android:layout_width="330dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="3dp"
                 android:background="@drawable/bg_putih"
@@ -51,13 +51,6 @@
                 android:padding="14dp"
                 android:textSize="12dp"
                 tools:ignore="TouchTargetSizeCheck" />
-
-            <ImageView
-                android:id="@+id/imageView26"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@drawable/eye_password"
-                android:layout_marginTop="13dp"/>
 
         </LinearLayout>
 
