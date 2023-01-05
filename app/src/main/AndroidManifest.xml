@@ -13,7 +13,7 @@
         android:theme="@style/Theme.IDO"
         tools:targetApi="31">
         <activity
-            android:name=".berita_klik_satu_Activity"
+            android:name=".otp_Activity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
@@ -21,13 +21,54 @@
 
         </activity>
         <activity
-            android:name=".Onboarding_tiga_Activity"
+            android:name=".otp_sukses_Activity"
             android:exported="true">
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
 
+        </activity>
+        <activity
+            android:name=".lupa_password_Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
 
+        </activity>
+        <activity
+            android:name=".register_Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".login_Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+        </activity>
+        <activity
+            android:name=".berita_klik_satu_Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Onboarding_tiga_Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
             android:name=".Onboarding_dua_Activity"
@@ -58,7 +99,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".HomeActivity"
