@@ -9,9 +9,15 @@ import android.view.ViewGroup
 import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.viewpager.widget.ViewPager
+import com.google.android.material.tabs.TabLayout
+import kampus.merdeka.I.Do.app.Adapter.MyAdapter
 import org.w3c.dom.Text
 
 class EducationFragment : Fragment() {
+
+    private lateinit var tabLayout: TabLayout
+    private lateinit var viewPager: ViewPager
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -40,4 +46,5 @@ class EducationFragment : Fragment() {
         }
 
     }
+
 }

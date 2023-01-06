@@ -5,31 +5,79 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".login_Activity"
-    android:orientation="vertical"
-    android:background="@drawable/bg_register">
+    android:orientation="vertical">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-        <ImageView
-            android:id="@+id/imageView15"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="100dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:layout_marginTop="134dp"
-            app:srcCompat="@drawable/bg_ido" />
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/bg_register">
 
-        <EditText
-            android:id="@+id/email"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="76dp"
-            android:background="@drawable/bg_putih"
-            android:hint="Alamat E-mail"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:inputType="textPersonName"
-            android:textSize="12sp"
-            android:padding="16dp" />
+            <ImageView
+                android:id="@+id/imageView15"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="114dp"
+                app:srcCompat="@drawable/bg_ido" />
+
+            <EditText
+                android:id="@+id/email"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="76dp"
+                android:background="@drawable/bg_putih"
+                android:hint="Alamat E-mail"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:inputType="textPersonName"
+                android:textSize="12sp"
+                android:padding="16dp" />
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="76dp"
+                android:hint="Alamat E-mail"
+                app:endIconMode="clear_text"
+                app:boxBackgroundColor="@color/white"
+                app:boxBackgroundMode="outline">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="30dp"
+                app:boxBackgroundMode="outline"
+                app:counterEnabled="true"
+                app:counterMaxLength="16"
+                android:hint="Password"
+                app:boxBackgroundColor="@color/white"
+                app:passwordToggleEnabled="true">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:maxLength="16"/>
+            </com.google.android.material.textfield.TextInputLayout>
 
             <EditText
                 android:id="@+id/password"
@@ -42,28 +90,29 @@
                 android:inputType="textPersonName"
                 android:textSize="12sp"
                 android:layout_marginTop="30dp"
+                android:visibility="gone"
                 android:padding="16dp" />
 
-    <TextView
-        android:id="@+id/tv_lupapw"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="257dp"
-        android:text="Lupa Password?"
-        android:textColor="@color/ungu"
-        android:fontFamily="@font/poppinsmedium"
-        android:textSize="14sp"/>
+            <TextView
+                android:id="@+id/tv_lupapw"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="257dp"
+                android:text="Lupa Password?"
+                android:textColor="@color/ungu"
+                android:fontFamily="@font/poppinsmedium"
+                android:textSize="14sp"/>
 
-        <Button
-            android:id="@+id/btn_login"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/btn_blue"
-            android:layout_marginTop="32dp"
-            android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            android:text="Login"/>
+            <Button
+                android:id="@+id/btn_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_blue"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:text="Login"/>
 
 
             <LinearLayout
@@ -161,18 +210,20 @@
 
 
 
-                <TextView
-                    android:id="@+id/tv_tanpa_login"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="Lanjutkan tanpa Login"
-                    android:textColor="@color/ungu"
-                    android:layout_marginStart="16dp"
-                    android:layout_marginEnd="16dp"
-                    android:fontFamily="@font/poppinsbold"
-                    android:textSize="16dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/tv_tanpa_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lanjutkan tanpa Login"
+                android:textColor="@color/ungu"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_gravity="center"/>
+        </LinearLayout>
 
 
+    </ScrollView>
 </LinearLayout>

@@ -6,81 +6,92 @@
     android:layout_height="match_parent"
     tools:context=".otp_Activity"
     android:orientation="vertical"
-    android:background="@color/bg_latar"
-    android:padding="16dp">
+    android:background="@color/bg_latar">
 
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="110dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/surat_verifikasi_akun" />
-
-        <TextView
-            android:id="@+id/textView25"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Verifikasi akunmu"
-            android:textSize="24sp"
-            android:fontFamily="@font/poppinsregular"
-            android:textColor="@color/black"
-            android:layout_marginTop="27dp"
-            android:layout_gravity="center"/>
-
-        <TextView
-            android:id="@+id/textView26"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textColor="@color/black"
-            android:fontFamily="@font/poppinsregular"
-            android:textSize="12sp"
-            android:text="Kode verifikasi telah masuk ke emailmu"
-            android:layout_marginTop="23dp"
-            android:layout_gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/imageView20"
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="110dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/surat_verifikasi_akun" />
+
+            <TextView
+                android:id="@+id/textView25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/kotak_otp"
-                android:layout_marginStart="59dp"
-                android:textAlignment="center"
-                android:inputType="phone"/>
+                android:text="Verifikasi akunmu"
+                android:textSize="24sp"
+                android:fontFamily="@font/poppinsregular"
+                android:textColor="@color/black"
+                android:layout_marginTop="27dp"
+                android:layout_gravity="center"/>
 
-            <EditText
-                android:id="@+id/imageView20s"
+            <TextView
+                android:id="@+id/textView26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:background="@drawable/kotak_otp"
-                android:textAlignment="center"
-                android:layout_marginStart="11dp"
-                android:inputType="phone"/>
+                android:textColor="@color/black"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="12sp"
+                android:text="Kode verifikasi telah masuk ke emailmu"
+                android:layout_marginTop="23dp"
+                android:layout_gravity="center"/>
 
-            <EditText
-                android:id="@+id/imageView2s0"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@drawable/kotak_otp"
-                android:textAlignment="center"
-                android:layout_marginStart="11dp"
-                android:inputType="phone"/>
-            <EditText
-                android:id="@+id/imageVidew20"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@drawable/kotak_otp"
-                android:textAlignment="center"
-                android:layout_marginStart="11dp"
-                android:inputType="phone"/>
+                android:padding="16dp"
+                android:orientation="horizontal">
 
-        </LinearLayout>
+                <EditText
+                    android:id="@+id/imageView20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kotak_otp"
+                    android:layout_marginStart="59dp"
+                    android:textAlignment="center"
+                    android:inputType="phone"/>
+
+                <EditText
+                    android:id="@+id/imageView20s"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kotak_otp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="11dp"
+                    android:inputType="phone"/>
+
+                <EditText
+                    android:id="@+id/imageView2s0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kotak_otp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="11dp"
+                    android:inputType="phone"/>
+                <EditText
+                    android:id="@+id/imageVidew20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/kotak_otp"
+                    android:textAlignment="center"
+                    android:layout_marginStart="11dp"
+                    android:inputType="phone"/>
+
+            </LinearLayout>
 
 
             <TextView
@@ -93,50 +104,58 @@
                 android:text="01.59 Detik"
                 android:textSize="12sp" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginTop="19dp">
-
-            <TextView
-                android:id="@+id/textView31"
-                android:layout_width="wrap_content"
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppinsregular"
-                android:textSize="12dp"
-                android:textColor="@color/silver"
-                android:layout_marginStart="70dp"
-                android:text="Belum manerima kode?" />
+                android:orientation="horizontal"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="19dp">
 
-            <TextView
-                android:id="@+id/editTextTextPersonName5"
-                android:layout_width="wrap_content"
+                <TextView
+                    android:id="@+id/textView31"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsregular"
+                    android:textSize="12dp"
+                    android:textColor="@color/silver"
+                    android:layout_marginStart="70dp"
+                    android:text="Belum manerima kode?" />
+
+                <TextView
+                    android:id="@+id/editTextTextPersonName5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppinsregular"
+                    android:text="Kirim ulang"
+                    android:layout_marginStart="3dp"
+                    android:textColor="@color/ungu"
+                    android:textSize="12dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="@font/poppinsregular"
-                android:text="Kirim ulang"
-                android:layout_marginStart="3dp"
-                android:textColor="@color/ungu"
-                android:textSize="12dp" />
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/btn_blue"
+                android:layout_marginTop="38dp">
+
+                <TextView
+                    android:id="@+id/tv_verifikasi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verifikasi"
+                    android:layout_gravity="center"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/putih" />
+            </LinearLayout>
         </LinearLayout>
+    </ScrollView>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:background="@drawable/btn_blue"
-            android:layout_marginTop="38dp">
 
-            <TextView
-                android:id="@+id/tv_verifikasi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Verifikasi"
-                android:layout_gravity="center"
-                android:textSize="16dp"
-                android:fontFamily="@font/poppinsbold"
-                android:textColor="@color/putih" />
-        </LinearLayout>
 
     </LinearLayout>
