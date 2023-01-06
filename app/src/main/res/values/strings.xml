@@ -11,6 +11,10 @@
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
+    <string name="adiksi_rokok1">Sejak   :   2018</string>
+    <string name="adiksi_alkohol1">Sejak   :   2020</string>3 bulan kedepan
+    <string name="adiksi_rokok2">Target  :   Akhir tahun sudah \nsembuh</string>
+    <string name="adiksi_alkohol2">Target  :   3 bulan kedepan</string>
     <string name="berita_text">
         Jakarta, CNN Indonesia -- Merokok bak adiksi yang sulit disetop. Zat adiktif bernama nikotin di dalamnya membikin banyak orang ketergantungan pada rokok. Alhasil, berhenti merokok jadi sesuatu yang musykil bagi sebagian orang. \n \n
         Di Indonesia, jumlah perokok mengalami peningkatan setiap tahunnya. Berdasarkan Riset Kesehatan Dasar (Riskesdas) 2013, ada sekitar 58 juta perokok aktif dimulai dari usia 10 tahun ke atas. \n \n

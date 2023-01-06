@@ -1,25 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".otp_Activity"
+    android:orientation="vertical"
     android:background="@color/bg_latar"
     android:padding="16dp">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
-
         <ImageView
             android:id="@+id/imageView19"
-            android:layout_width="194dp"
-            android:layout_height="194dp"
-            android:layout_marginTop="126dp"
-            android:layout_marginLeft="85dp"
-            android:layout_marginRight="100dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_gravity="center"
             app:srcCompat="@drawable/surat_verifikasi_akun" />
 
         <TextView
@@ -27,12 +22,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Verifikasi akunmu"
-            android:textSize="24dp"
+            android:textSize="24sp"
             android:fontFamily="@font/poppinsregular"
             android:textColor="@color/black"
             android:layout_marginTop="27dp"
-            android:layout_marginLeft="75dp"
-            android:layout_marginRight="70dp"/>
+            android:layout_gravity="center"/>
 
         <TextView
             android:id="@+id/textView26"
@@ -40,68 +34,68 @@
             android:layout_height="wrap_content"
             android:textColor="@color/black"
             android:fontFamily="@font/poppinsregular"
-            android:textSize="12dp"
+            android:textSize="12sp"
             android:text="Kode verifikasi telah masuk ke emailmu"
             android:layout_marginTop="23dp"
-            android:layout_marginLeft="65dp"
-            android:layout_marginRight="50dp"/>
+            android:layout_gravity="center"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="90dp"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
             android:orientation="horizontal">
 
-            <ImageView
+            <EditText
                 android:id="@+id/imageView20"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                app:srcCompat="@drawable/btn_putih_pendek"
-                android:layout_marginLeft="65dp"
-                android:layout_marginTop="30dp"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kotak_otp"
+                android:layout_marginStart="59dp"
+                android:textAlignment="center"
+                android:inputType="phone"/>
 
-            <ImageView
-                android:id="@+id/imageView21"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                app:srcCompat="@drawable/btn_putih_pendek"
-                android:layout_marginTop="30dp"/>
+            <EditText
+                android:id="@+id/imageView20s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kotak_otp"
+                android:textAlignment="center"
+                android:layout_marginStart="11dp"
+                android:inputType="phone"/>
 
-            <ImageView
-                android:id="@+id/imageView22"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                app:srcCompat="@drawable/btn_putih_pendek"
-                android:layout_marginTop="30dp"/>
-
-            <ImageView
-                android:id="@+id/imageView23"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                app:srcCompat="@drawable/btn_putih_pendek"
-                android:layout_marginTop="30dp"/>
+            <EditText
+                android:id="@+id/imageView2s0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kotak_otp"
+                android:textAlignment="center"
+                android:layout_marginStart="11dp"
+                android:inputType="phone"/>
+            <EditText
+                android:id="@+id/imageVidew20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/kotak_otp"
+                android:textAlignment="center"
+                android:layout_marginStart="11dp"
+                android:inputType="phone"/>
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:orientation="vertical">
 
-            <EditText
+            <TextView
                 android:id="@+id/editTextTime"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="150dp"
                 android:fontFamily="@font/poppinsmedium"
-                android:inputType="time"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
                 android:text="01.59 Detik"
-                android:textSize="12dp"
-                tools:ignore="TouchTargetSizeCheck" />
-        </LinearLayout>
+                android:textSize="12sp" />
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="19dp">
 
@@ -111,43 +105,38 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppinsregular"
                 android:textSize="12dp"
-                android:layout_marginLeft="70dp"
+                android:textColor="@color/silver"
+                android:layout_marginStart="70dp"
                 android:text="Belum manerima kode?" />
 
-            <EditText
+            <TextView
                 android:id="@+id/editTextTextPersonName5"
-                android:layout_width="80dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginRight="60dp"
                 android:fontFamily="@font/poppinsregular"
-                android:gravity="start|top"
-                android:inputType="textMultiLine"
-                android:minWidth="48dp"
                 android:text="Kirim ulang"
+                android:layout_marginStart="3dp"
                 android:textColor="@color/ungu"
-                android:textSize="12dp"
-                tools:ignore="TouchTargetSizeCheck" />
+                android:textSize="12dp" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:padding="16dp"
             android:background="@drawable/btn_blue"
             android:layout_marginTop="38dp">
 
             <TextView
-                android:id="@+id/textView33"
+                android:id="@+id/tv_verifikasi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Verifikasi"
-                android:layout_marginLeft="135dp"
-                android:layout_marginRight="110dp"
+                android:layout_gravity="center"
                 android:textSize="16dp"
                 android:fontFamily="@font/poppinsbold"
-                android:textColor="@color/putih"
-                android:padding="11dp"/>
+                android:textColor="@color/putih" />
         </LinearLayout>
 
     </LinearLayout>
-</androidx.constraintlayout.widget.ConstraintLayout>
