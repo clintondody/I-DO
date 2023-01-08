@@ -21,6 +21,9 @@ class login_Activity : AppCompatActivity() {
         setContentView(R.layout.activity_login)
 
 
+        lighStatusBar(window)
+
+
 
         lupa_password = findViewById(R.id.tv_lupapw)
         login = findViewById(R.id.btn_login)

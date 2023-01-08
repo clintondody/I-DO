@@ -8,6 +8,7 @@
     <string name="action_sign_in">Sign in or register</string>
     <string name="action_sign_in_short">Sign in</string>
     <string name="welcome">"Welcome !"</string>
+    <string name="btn_lihatdetai">Lihat Detail</string>
     <string name="invalid_username">Not a valid username</string>
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
@@ -25,4 +26,15 @@
         Berikut timeline apa yang bakal terjadi pada tubuh saat ada berhenti merokok, mengutip Healthline dan Medical News Today. \n \n
         20 menit setelah rokok terakhir Dampak positif dari berhenti merokok dimulai sejak 20 menit setelah rokok terakhir. Tekanan darah dan denyut nadi Anda akan kembali pada level normal.
     </string>
+    <string name="metode"><font color='#827D85'>Metode</font> : <font color='#827D85'><b>Mengurangi Intensitas</b></font> </string>
+    <string name="start"><font color='#916DD5'>Start</font> : <font color='#916DD5'><b>8 Des 2022</b></font> </string>
+    <string name="end"><font color='#916DD5'>End</font> : <font color='#916DD5'><b>6 Feb 2023</b></font> </string>
+
+    <string-array name="jenis_adiksi">
+        <item>Rokok</item>
+        <item>Alkohol</item>
+        <item>Game</item>
+        <item>Gula</item>
+        <item>Media Sosial</item>
+    </string-array>
 </resources>

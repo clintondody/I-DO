@@ -15,6 +15,9 @@ class Onboarding_tiga_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboarding_tiga)
 
+
+        lighStatusBar(window)
+
         btn_mulai = findViewById(R.id.btn_mulai)
         prev = findViewById(R.id.btn_prev3)
 

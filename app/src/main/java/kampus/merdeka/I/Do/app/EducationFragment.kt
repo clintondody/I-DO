@@ -16,8 +16,7 @@ import org.w3c.dom.Text
 
 class EducationFragment : Fragment() {
 
-    private lateinit var tabLayout: TabLayout
-    private lateinit var viewPager: ViewPager
+
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -43,6 +42,20 @@ class EducationFragment : Fragment() {
             val img1 =
                 Intent(this@EducationFragment.activity, berita_klik_satu_Activity::class.java)
             startActivity(img1)
+        }
+
+        val image2: ImageView = view.findViewById(R.id.iv_berita2)
+        image2.setOnClickListener {
+            val image2 =
+                Intent(this@EducationFragment.activity, berita_klik_2_Activity::class.java)
+            startActivity(image2)
+        }
+
+        val image3: ImageView = view.findViewById(R.id.iv_berita3)
+        image3.setOnClickListener {
+            val image3 =
+                Intent(this@EducationFragment.activity, berita_klik3_Activity::class.java)
+            startActivity(image3)
         }
 
     }

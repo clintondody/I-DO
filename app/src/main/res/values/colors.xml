@@ -12,6 +12,9 @@
     <color name="biru">#3E206D</color>
     <color name="white">#FFFFFFFF</color>
     <color name="merah">#EC0808</color>
-    <color name="putih">#FFFFFFFF</color>827D85
+    <color name="putih">#FFFFFFFF</color>
     <color name="silver">#827D85</color>
+    <color name="putihtrans">#8FFFFFFF</color>
+    <color name="putihburam">#AEFFFEFE</color>
+    <color name="ungumuda">#EEDEFF</color>
 </resources>

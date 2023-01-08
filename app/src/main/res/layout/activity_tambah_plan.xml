@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:background="@color/bg_latar"
+    tools:context=".tambah_plan_Activity">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1000dp"
+        android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="52dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="8dp"
+                    android:layout_height="14dp"
+                    android:src="@drawable/ic_kembali"
+                    android:layout_gravity="center"
+                    android:layout_marginStart="27dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:text="Tambah Plan"
+                    android:layout_marginTop="14dp"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/ungu"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="17dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Jenis Adiksi"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="19dp"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+                        <AutoCompleteTextView
+                            android:id="@+id/auto_complate_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="Pilih salah satu"
+                            android:textColor="@color/silver"
+                            android:fontFamily="@font/poppinsregular"
+                            android:textSize="12sp"
+                            android:inputType="none"/>
+                    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="156dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="17dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Target Ideal"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="19dp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Mulai"
+                            android:layout_marginStart="43dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppinsbold"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Berakhir"
+                            android:layout_marginStart="172dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/poppinsbold"
+                            android:textSize="12sp"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="90dp"
+                            android:layout_height="50dp"
+                            app:cardCornerRadius="12dp"
+                            android:layout_marginStart="16dp"
+                            app:cardBackgroundColor="@color/putihburam"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="8/12/2022"
+                                android:layout_gravity="center"/>
+
+                        </androidx.cardview.widget.CardView>
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="90dp"
+                            android:layout_height="50dp"
+                            android:layout_marginStart="126dp"
+                            app:cardCornerRadius="12dp"
+                            app:cardBackgroundColor="@color/putihburam"
+                            android:layout_marginTop="16dp">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="6/2/2023"
+                                android:layout_gravity="center"/>
+
+                        </androidx.cardview.widget.CardView>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="263dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="17dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="263dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Metode"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="19dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="53dp"
+                        android:background="@color/putihburam"
+                        app:cardCornerRadius="12dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="14dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mengurangi Intensitas"
+                                android:fontFamily="@font/poppinsregular"
+                                android:textSize="12sp"
+                                android:layout_marginTop="17dp"
+                                android:textColor="@color/black"
+                                android:layout_marginStart="14dp"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="120dp"
+                                android:src="@drawable/bulatan_aktif"/>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="53dp"
+                        android:background="@color/putihburam"
+                        app:cardCornerRadius="12dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="14dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Berhenti"
+                                android:fontFamily="@font/poppinsregular"
+                                android:textSize="12sp"
+                                android:layout_marginTop="17dp"
+                                android:textColor="@color/black"
+                                android:layout_marginStart="14dp"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="203dp"
+                                android:src="@drawable/bulatan_nonaktif"/>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="300dp"
+                        android:layout_height="53dp"
+                        android:background="@color/putihburam"
+                        app:cardCornerRadius="12dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="14dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Menunda Waktu Konsumsi"
+                                android:fontFamily="@font/poppinsregular"
+                                android:textSize="12sp"
+                                android:layout_marginTop="17dp"
+                                android:textColor="@color/black"
+                                android:layout_marginStart="14dp"/>
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginStart="93dp"
+                                android:src="@drawable/bulatan_nonaktif"/>
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="17dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="12dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Catatan"
+                        android:fontFamily="@font/poppinsbold"
+                        android:textColor="@color/black"
+                        android:textSize="12sp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="19dp"/>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="53dp"
+                        android:background="@color/putihburam"
+                        app:cardCornerRadius="12dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="24dp"
+                        android:layout_marginTop="14dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="53dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Ayo stop ngerokok bro, uang ditabung !!"
+                                android:fontFamily="@font/poppinsregular"
+                                android:textSize="12sp"
+                                android:layout_marginTop="18dp"
+                                android:textColor="@color/silver"
+                                android:layout_marginStart="14dp" />
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+                <Button
+                    android:id="@+id/btn_mulai_plan"
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginEnd="16dp"
+                    android:backgroundTint="@color/biru"
+                    android:text="Mulai"
+                    android:layout_marginTop="13dp"
+                    android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+    
+
+</ScrollView>

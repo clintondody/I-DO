@@ -1,0 +1,57 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="299dp"
+            android:orientation="vertical"
+            android:background="@drawable/bg_popup">
+
+            <ImageView
+                android:id="@+id/img_succes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="29dp"
+                app:srcCompat="@drawable/ic_centang" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:fontFamily="@font/poppinsregular"
+                android:text="Selamat Akun Anda Berhasil Dibuat "
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/textView27"
+                android:layout_width="174dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="80dp"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"
+                android:text="Anda dapat mengedit data pada menu profile"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/btn_ok"
+                android:layout_width="87dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="123.5dp"
+                android:layout_marginTop="35dp"
+                android:background="@drawable/btn_birumuda"
+                android:text="OK"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+
+
+        </LinearLayout>
+
+</LinearLayout>

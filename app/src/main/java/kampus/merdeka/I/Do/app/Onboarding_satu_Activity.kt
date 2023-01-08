@@ -17,6 +17,9 @@ class Onboarding_satu_Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_onboarding_satu)
 
+
+        lighStatusBar(window)
+
         next1 = findViewById(R.id.next1)
         skip = findViewById(R.id.btn_skip)
 
