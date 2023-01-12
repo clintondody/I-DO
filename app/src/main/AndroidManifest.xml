@@ -15,6 +15,15 @@
         android:theme="@style/Theme.IDO"
         tools:targetApi="31">
         <activity
+            android:name=".detail_plan_Activity"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+
+
+        </activity>
+        <activity
             android:name=".berita_klik3_Activity"
             android:exported="false">
             <meta-data
@@ -122,6 +131,7 @@
         <activity
             android:name=".SplasscreenActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
