@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:background="@color/bg_latar"
-    tools:context=".plan_no_adiksi_Activity">
-
+    tools:context=".Plan_Adiksi_Guest_Activity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,11 +15,11 @@
         tools:ignore="MissingConstraints">
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="40dp"
-            android:layout_height="40dp"
+            android:id="@+id/imageView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="7dp"
-            android:src="@drawable/profile" />
+            android:src="@drawable/profil_plan_biru" />
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -28,7 +27,7 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/textView"
+                android:id="@+id/textView30"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/black"
@@ -38,14 +37,14 @@
                 android:text="Hello," />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/textView32"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppinsbold"
                 android:layout_marginStart="10dp"
                 android:textColor="@color/black"
                 android:textSize="16sp"
-                android:text="Husein" />
+                android:text="Pengguna"  />
         </LinearLayout>
 
         <LinearLayout
@@ -53,19 +52,19 @@
             android:layout_height="wrap_content"
             android:background="@drawable/btn_blue"
             android:padding="4dp"
-            android:layout_marginStart="180dp"
+            android:layout_marginStart="150dp"
             android:layout_marginTop="8dp"
             android:orientation="horizontal">
 
             <ImageView
-                android:id="@+id/imageView4"
+                android:id="@+id/imageView32"
                 android:layout_width="wrap_content"
                 android:layout_marginTop="3dp"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_chat" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView33"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/white"
@@ -86,14 +85,14 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/textView5"
+                android:id="@+id/textView34"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppinsbold"
                 android:textColor="@color/biru"
                 android:textSize="16sp"
                 android:layout_marginTop="25dp"
-                android:text="Adiksi" />
+                android:text="Adiksi"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -103,25 +102,25 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageView5"
+                    android:id="@+id/imageView38"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/ic_tambah" />
 
                 <TextView
-                    android:id="@+id/textView6"
+                    android:id="@+id/textView48"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
                     android:fontFamily="@font/poppinsregular"
                     android:textColor="@color/ungu"
                     android:layout_marginBottom="20dp"
-                    android:text="Pilih adiksi yang Anda alami" />
+                    android:text="Pilih adiksi yang Anda alami"/>
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView54"
+                android:id="@+id/textView49"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppinsbold"
@@ -138,14 +137,14 @@
                 android:orientation="vertical">
 
                 <ImageView
-                    android:id="@+id/imageView53"
+                    android:id="@+id/imageView49"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:src="@drawable/ic_tambah" />
 
                 <TextView
-                    android:id="@+id/textView61"
+                    android:id="@+id/textView50"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
@@ -156,14 +155,14 @@
             </LinearLayout>
 
             <TextView
-                android:id="@+id/textView541"
+                android:id="@+id/textView52"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/poppinsbold"
                 android:textColor="@color/biru"
                 android:textSize="16sp"
                 android:layout_marginTop="25dp"
-                android:text="Selesai" />
+                android:text="Selesai"  />
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -172,9 +171,8 @@
                 android:background="@drawable/frame_garisgaris"
                 android:orientation="vertical">
 
-
                 <TextView
-                    android:id="@+id/textView612"
+                    android:id="@+id/textView51"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textAlignment="center"
@@ -185,5 +183,4 @@
             </LinearLayout>
         </LinearLayout>
     </ScrollView>
-
 </androidx.constraintlayout.widget.ConstraintLayout>

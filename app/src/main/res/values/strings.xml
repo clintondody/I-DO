@@ -37,4 +37,5 @@
         <item>Gula</item>
         <item>Media Sosial</item>
     </string-array>
+    <string name="title_activity_profil_pencapaian">Profil_Pencapaian_Activity</string>
 </resources>

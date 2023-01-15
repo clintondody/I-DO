@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_latar"
+    android:orientation="vertical"
+    tools:context=".Privacy_Policy_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:background="@color/biru"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="27dp"
+            android:src="@drawable/ic_kembali_putih"/>
+
+        <TextView
+            android:id="@+id/textView29"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="12dp"
+            android:fontFamily="@font/poppinsbold"
+            android:text="Kebijakan Privasi"
+            android:textColor="@color/putih"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/poppinsbold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:text="Kebijakan Privasi" />
+
+        <TextView
+            android:id="@+id/textView45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textSize="12dp"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Kebijakan Privasi berikut menjelaskan bagaimana kami, mengumpulkan, menyimpan, menggunakan, mengolah, menguasai, mentransfer, mengungkapkan dan melindungi informasi pribadi Anda. Kebijakan Privasi ini berlaku bagi seluruh pengguna Layanan (“Aplikasi”) kami, kecuali diatur pada kebijakan privasi yang terpisah." />
+
+        <TextView
+            android:id="@+id/textView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Dengan menggunakan Layanan kami, Anda menyetujui pengumpulan, pengungkapan dan penggunaan lainnya atas informasi Anda yang dijelaskan di bawah ini. Kami terus melakukan pengembangan dan Kebijakan Privasi kami dapat diperbarui dari waktu ke waktu. Kami tidak akan melakukan perubahan penting terhadap Kebijakan Privasi tanpa memberikan pemberitahuan lebih dulu mengenai perubahan tersebut melalui Layanan kami." />
+
+        <TextView
+            android:id="@+id/textView47"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppinsregular"
+            android:text="Mohon untuk membaca Kebijakan Privasi ini dengan seksama untuk memastikan bahwa Anda memahami bagaimana proses pengolahan data kami. Kebijakan Privasi ini mencakup hal-hal sebagai berikut:" />
+    </LinearLayout>
+</LinearLayout>
