@@ -8,16 +8,18 @@
     tools:context=".MainActivity">
 
     <com.google.android.material.tabs.TabLayout
-        android:layout_width="match_parent"
         android:id="@+id/tabLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@color/ungu"/>
+        android:background="@color/ungu"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <androidx.viewpager.widget.ViewPager
+        android:id="@+id/viewPager"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/viewPager"/>
+        tools:ignore="SpeakableTextPresentCheck" />
 
 
 </LinearLayout>

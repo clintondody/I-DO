@@ -9,9 +9,9 @@
     tools:context=".PlanFragment">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_fab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/btn_fab"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
         android:elevation="6dp"
@@ -21,7 +21,8 @@
         app:fabSize="normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:tint="@color/white" />
+        app:tint="@color/white"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -45,7 +46,7 @@
                     android:layout_height="40dp"
                     android:layout_gravity="center"
                     android:layout_marginStart="16dp"
-                    android:src="@drawable/profil_plan"></ImageView>
+                    android:src="@drawable/profile"></ImageView>
 
                 <LinearLayout
                     android:layout_width="205dp"

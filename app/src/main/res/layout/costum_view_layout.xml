@@ -49,7 +49,8 @@
                 android:background="@drawable/btn_birumuda"
                 android:text="OK"
                 android:textColor="@color/white"
-                android:textSize="18dp" />
+                android:textSize="18dp"
+                tools:ignore="TouchTargetSizeCheck" />
 
 
         </LinearLayout>
