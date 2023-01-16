@@ -10,23 +10,23 @@
     android:padding="16dp">
 
 
-        <ImageView
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="39dp"
+        android:fontFamily="@font/poppinsmedium"
+        android:text="Yeay! Akunmu berhasil diperbarui"
+        android:textColor="@color/black"
+        android:textSize="16dp" />
+
+    <ImageView
             android:id="@+id/imageView17"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/kode_otp_sukses"
-            android:layout_marginTop="254dp"
-            android:layout_gravity="center"/>
-
-        <TextView
-            android:id="@+id/textView23"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Yeay! Akunmu berhasil diperbarui"
-            android:textColor="@color/black"
-            android:textSize="16dp"
-            android:fontFamily="@font/poppinsmedium"
-            android:layout_marginTop="39dp"
+            android:layout_marginTop="200dp"
             android:layout_gravity="center"/>
 
     <Button
