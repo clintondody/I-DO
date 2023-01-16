@@ -17,23 +17,5 @@ class register_Activity : AppCompatActivity() {
         lighStatusBar(window)
 
 
-        val btnAlerts = findViewById<Button>(R.id.btn_daftar_akun)
-
-        btnAlerts.setOnClickListener {
-            val builder = AlertDialog.Builder(this@register_Activity)
-                .create()
-            val view = View.inflate(this@register_Activity,R.layout.costum_view_layout,null)
-            val  imageView = view.findViewById<ImageView>(R.id.img_succes)
-            builder.setView(view)
-
-            imageView.setOnClickListener {
-                builder.dismiss()
-            }
-            builder.setCanceledOnTouchOutside(false)
-            builder.show()
-            view.findViewById<Button>(R.id.btn_ok).setOnClickListener {
-                startActivity(Intent(this@register_Activity,login_Activity::class.java))
-            }
-        }
     }
 }

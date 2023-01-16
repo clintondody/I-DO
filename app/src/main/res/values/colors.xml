@@ -17,4 +17,6 @@
     <color name="putihtrans">#8FFFFFFF</color>
     <color name="putihburam">#AEFFFEFE</color>
     <color name="ungumuda">#EEDEFF</color>
+    <color name="grey">#797979</color>
+    <color name="bg_popup">#FAFAFA</color>
 </resources>

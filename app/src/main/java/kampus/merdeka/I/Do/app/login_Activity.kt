@@ -45,4 +45,10 @@ class login_Activity : AppCompatActivity() {
             startActivity(Intent(this@login_Activity, HomeActivity::class.java))
         }
     }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        moveTaskToBack(true)
+        finish()
+    }
 }
