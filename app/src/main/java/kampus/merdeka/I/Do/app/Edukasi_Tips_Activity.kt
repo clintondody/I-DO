@@ -1,13 +1,18 @@
 package kampus.merdeka.I.Do.app
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
+import android.widget.ImageView
 
 class Edukasi_Tips_Activity : AppCompatActivity() {
 
     lateinit var webview : WebView
+
+    var yt1 : ImageView? = null
+    var yt2 : ImageView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -15,19 +20,18 @@ class Edukasi_Tips_Activity : AppCompatActivity() {
 
         lighStatusBar(window)
 
-        webview = findViewById(R.id.webviewtips)
-        webview.webViewClient = WebViewClient()
-        webview.loadUrl("https://www.youtube.com/watch?v=gf7l8L02E7I&t=13s")
+        yt1 = findViewById(R.id.yt1)
 
-        webview = findViewById(R.id.webviewtips2)
-        webview.webViewClient = WebViewClient()
-        webview.loadUrl("https://www.youtube.com/watch?v=j3CMaibDMl0")
+        yt1?.setOnClickListener {
+            startActivity(Intent(this@Edukasi_Tips_Activity, yt1_Activity::class.java))
+        }
+        yt2 = findViewById(R.id.yt2)
 
-        val webSettings = webview.settings
+        yt2?.setOnClickListener {
+            startActivity(Intent(this@Edukasi_Tips_Activity, yt2_Activity::class.java))
+        }
 
-        webSettings.javaScriptEnabled = true
 
-        webSettings.domStorageEnabled = true
 
     }
 }

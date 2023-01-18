@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
-import kampus.merdeka.I.Do.app.Adapter.MyAdapter
+import kampus.merdeka.I.Do.app.Adapter.Adapter_profile
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         tabLayout.addTab(tabLayout.newTab().setText("Tips"))
         tabLayout.tabGravity = TabLayout.GRAVITY_FILL
 
-        val adapter = MyAdapter(this, supportFragmentManager,
+        val adapter = Adapter_profile(this, supportFragmentManager,
         tabLayout.tabCount)
         viewPager.adapter = adapter
 

@@ -1,18 +1,14 @@
 package kampus.merdeka.I.Do.app
 
-import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
+import kampus.merdeka.I.Do.app.Adapter.Adapter_profile
 import kampus.merdeka.I.Do.app.Adapter.MyAdapter
-import org.w3c.dom.Text
 
 class EducationFragment : Fragment() {
 
