@@ -8,12 +8,13 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
+import androidx.cardview.widget.CardView
 
 class Setting_Activity : AppCompatActivity() {
 
-    var keluar : TextView? = null
-    var resetpassword : TextView? = null
+    var reset_password : CardView? = null
     var kebijakan_privasi : TextView? = null
+    var ubahprofile : TextView? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,14 +23,18 @@ class Setting_Activity : AppCompatActivity() {
 
         lighStatusBar(window)
 
-        resetpassword = findViewById(R.id.reset_password)
+        reset_password = findViewById(R.id.risetpassword)
+        ubahprofile = findViewById(R.id.ubah_profile)
         kebijakan_privasi = findViewById(R.id.TV_kebijakan_privasi)
 
         kebijakan_privasi?.setOnClickListener {
             startActivity(Intent(this@Setting_Activity, Privacy_Policy_Activity::class.java))
         }
-        resetpassword?.setOnClickListener {
+        reset_password?.setOnClickListener {
             startActivity(Intent(this@Setting_Activity, Reset_Password_Activity::class.java))
+        }
+        ubahprofile?.setOnClickListener {
+            startActivity(Intent(this@Setting_Activity, Edit_profile_Activity::class.java))
         }
 
 

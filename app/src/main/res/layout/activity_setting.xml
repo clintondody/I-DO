@@ -67,7 +67,7 @@
         android:layout_marginTop="8dp">
 
         <TextView
-            android:id="@+id/textView35"
+            android:id="@+id/ubah_profile"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="22dp"
@@ -80,6 +80,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
+        android:id="@+id/risetpassword"
         android:layout_height="57dp"
         app:cardCornerRadius="12dp"
         android:layout_marginStart="15.5dp"
@@ -87,7 +88,7 @@
         android:layout_marginTop="8dp">
 
         <TextView
-            android:id="@+id/reset_password"
+            android:id="@+id/TV_reset_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="22dp"

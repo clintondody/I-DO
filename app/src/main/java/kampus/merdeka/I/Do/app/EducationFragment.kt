@@ -16,6 +16,9 @@ import org.w3c.dom.Text
 
 class EducationFragment : Fragment() {
 
+    private lateinit var tabLayout: TabLayout
+    private lateinit var viewPager: ViewPager
+
 
 
     override fun onCreateView(
@@ -30,34 +33,28 @@ class EducationFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val tv1: TextView = view.findViewById(R.id.tv1)
-        tv1.setOnClickListener {
-            val tv1 =
-                Intent(this@EducationFragment.activity, berita_klik_satu_Activity::class.java)
-            startActivity(tv1)
-        }
+        tabLayout = view.findViewById(R.id.tabLayout)
+        viewPager = view.findViewById(R.id.viewPager)
 
-        val img1: ImageView = view.findViewById(R.id.img1)
-        img1.setOnClickListener {
-            val img1 =
-                Intent(this@EducationFragment.activity, berita_klik_satu_Activity::class.java)
-            startActivity(img1)
-        }
+        tabLayout.addTab(tabLayout.newTab().setText("Berita"))
+        tabLayout.addTab(tabLayout.newTab().setText("Tips"))
+        tabLayout.tabGravity = TabLayout.GRAVITY_FILL
 
-        val image2: ImageView = view.findViewById(R.id.iv_berita2)
-        image2.setOnClickListener {
-            val image2 =
-                Intent(this@EducationFragment.activity, berita_klik_2_Activity::class.java)
-            startActivity(image2)
-        }
+        val adapter = MyAdapter(activity?.applicationContext!!, childFragmentManager,
+            tabLayout.tabCount)
+        viewPager.adapter = adapter
 
-        val image3: ImageView = view.findViewById(R.id.iv_berita3)
-        image3.setOnClickListener {
-            val image3 =
-                Intent(this@EducationFragment.activity, berita_klik3_Activity::class.java)
-            startActivity(image3)
-        }
+        viewPager.addOnPageChangeListener(TabLayout.TabLayoutOnPageChangeListener(tabLayout))
+        tabLayout.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
+            override fun onTabSelected(tab: TabLayout.Tab?) {
+                viewPager.currentItem = tab!!.position
+            }
+            override fun onTabUnselected(tab: TabLayout.Tab?) {}
+            override fun onTabReselected(tab: TabLayout.Tab?) {}
 
+        })
     }
+
+
 
 }

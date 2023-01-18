@@ -24,9 +24,7 @@
         app:tint="@color/white"
         tools:ignore="SpeakableTextPresentCheck" />
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -103,516 +101,529 @@
                 </LinearLayout>
             </LinearLayout>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="25dp"
-                android:fontFamily="@font/poppinsbold"
-                android:text="Adiksi"
-                android:textColor="@color/biru"
-                android:textSize="16sp" />
-
-
-            <HorizontalScrollView
+            <ScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp">
+                android:layout_height="match_parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="145dp"
-                    android:gravity="center">
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="250dp"
-                        android:layout_height="125dp"
-                        android:layout_marginStart="10dp"
-                        app:cardBackgroundColor="@color/white"
-                        app:cardCornerRadius="12dp">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="Adiksi"
+                        android:textColor="@color/biru"
+                        android:textSize="16sp" />
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:fontFamily="@font/poppinsbold"
-                                android:text="Adiksi Rokok"
-                                android:textColor="@color/ungu"
-                                android:textSize="14sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="@string/adiksi_rokok1"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="@string/adiksi_rokok2"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-                        </LinearLayout>
-
-                    </androidx.cardview.widget.CardView>
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="250dp"
-                        android:layout_height="125dp"
-                        android:layout_marginStart="10dp"
-                        app:cardBackgroundColor="@color/white"
-                        app:cardCornerRadius="12dp">
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:layout_height="145dp"
+                            android:gravity="center">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="20dp"
-                                android:fontFamily="@font/poppinsbold"
-                                android:text="Adiksi Alkohol"
-                                android:textColor="@color/ungu"
-                                android:textSize="14sp" />
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="250dp"
+                                android:layout_height="125dp"
+                                android:layout_marginStart="10dp"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="12dp">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="@string/adiksi_alkohol1"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="@string/adiksi_alkohol2"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-                        </LinearLayout>
-                    </androidx.cardview.widget.CardView>
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:fontFamily="@font/poppinsbold"
+                                        android:text="Adiksi Rokok"
+                                        android:textColor="@color/ungu"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="@string/adiksi_rokok1"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="@string/adiksi_rokok2"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="250dp"
+                                android:layout_height="125dp"
+                                android:layout_marginStart="10dp"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="20dp"
+                                        android:fontFamily="@font/poppinsbold"
+                                        android:text="Adiksi Alkohol"
+                                        android:textColor="@color/ungu"
+                                        android:textSize="14sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="@string/adiksi_alkohol1"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="@string/adiksi_alkohol2"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
 
 
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginStart="10dp"
-                            android:background="@drawable/frame_putus2"
-                            android:orientation="vertical">
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
-                                android:src="@drawable/ic_tamabah_bulat"/>
-                            <TextView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Pilih adiksi yang Anda alami"
-                                android:textSize="12sp"
-                                android:textColor="@color/ungu"
-                                android:fontFamily="@font/poppinsregular"
-                                android:textAlignment="center"
-                                android:layout_marginTop="5dp"/>
-
-
-
-                        </LinearLayout>
-
-
-                </LinearLayout>
-
-
-            </HorizontalScrollView>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="25dp"
-                android:fontFamily="@font/poppinsbold"
-                android:text="Sedang berjalan"
-                android:textColor="@color/biru"
-                android:textSize="16sp" />
-
-            <HorizontalScrollView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp">
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal">
-
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="358dp"
-                        android:layout_height="295dp"
-                        android:layout_marginTop="10dp"
-                        app:cardBackgroundColor="@color/white"
-                        app:cardCornerRadius="12dp">
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:orientation="vertical">
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginStart="20dp"
-                                    android:fontFamily="@font/poppinsbold"
-                                    android:text="Berhenti merokok"
-                                    android:textColor="@color/biru"
-                                    android:textSize="14sp" />
+                                android:layout_marginStart="10dp"
+                                android:background="@drawable/frame_putus2"
+                                android:orientation="vertical">
 
                                 <ImageView
-                                    android:layout_width="16dp"
-                                    android:layout_height="16dp"
-                                    android:layout_marginStart="131dp"
-                                    android:src="@drawable/ic_heart" />
-
-                                <ImageView
-                                    android:layout_width="16dp"
-                                    android:layout_height="16dp"
-                                    android:layout_marginStart="6dp"
-                                    android:src="@drawable/ic_heart" />
-
-                                <ImageView
-                                    android:layout_width="16dp"
-                                    android:layout_height="16dp"
-                                    android:layout_marginStart="6dp"
-                                    android:src="@drawable/ic_heart" />
-                            </LinearLayout>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:text="@string/metode" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="20dp"
-                                    android:text="@string/start"
-                                    android:textSize="12sp" />
-
+                                    android:layout_marginTop="20dp"
+                                    android:src="@drawable/ic_tamabah_bulat"/>
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="121dp"
-                                    android:text="@string/end"
-                                    android:textSize="12sp" />
+                                    android:text="Pilih adiksi yang Anda alami"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/ungu"
+                                    android:fontFamily="@font/poppinsregular"
+                                    android:textAlignment="center"
+                                    android:layout_marginTop="5dp"/>
+
+
 
                             </LinearLayout>
 
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:layout_marginEnd="20dp"
-                                android:src="@drawable/progress_bar" />
 
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
-                                android:fontFamily="@font/poppinsbold"
-                                android:text="Target Harian"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="2dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="Mengurangi konsumsi rokok 1 batang tiap harinya"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
-                                android:fontFamily="@font/poppinsbold"
-                                android:text="Note :"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="2dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="Ayo stop ngerokok bro, uang ditabung !!"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <Button
-                                android:id="@+id/btn_detail"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="20dp"
-                                android:backgroundTint="@color/biru"
-                                android:text="@string/btn_lihatdetai"
-                                android:textSize="12sp" />
                         </LinearLayout>
 
-                    </androidx.cardview.widget.CardView>
 
-                    <androidx.cardview.widget.CardView
-                        android:layout_width="358dp"
-                        android:layout_height="295dp"
-                        android:layout_marginStart="10dp"
-                        android:layout_marginTop="10dp"
-                        app:cardBackgroundColor="@color/white"
-                        app:cardCornerRadius="12dp">
+                    </HorizontalScrollView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="Sedang berjalan"
+                        android:textColor="@color/biru"
+                        android:textSize="16sp" />
+
+                    <HorizontalScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:orientation="vertical">
+                            android:orientation="horizontal">
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="358dp"
+                                android:layout_height="295dp"
+                                android:layout_marginTop="10dp"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="20dp"
+                                            android:fontFamily="@font/poppinsbold"
+                                            android:text="Berhenti merokok"
+                                            android:textColor="@color/biru"
+                                            android:textSize="14sp" />
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_marginStart="131dp"
+                                            android:src="@drawable/ic_heart" />
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_marginStart="6dp"
+                                            android:src="@drawable/ic_heart" />
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_marginStart="6dp"
+                                            android:src="@drawable/ic_heart" />
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:text="@string/metode" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="20dp"
+                                            android:text="@string/start"
+                                            android:textSize="12sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="121dp"
+                                            android:text="@string/end"
+                                            android:textSize="12sp" />
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:src="@drawable/progress_bar" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="@font/poppinsbold"
+                                        android:text="Target Harian"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="2dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="Mengurangi konsumsi rokok 1 batang tiap harinya"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="@font/poppinsbold"
+                                        android:text="Note :"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="2dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="Ayo stop ngerokok bro, uang ditabung !!"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <Button
+                                        android:id="@+id/btn_detail"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:backgroundTint="@color/biru"
+                                        android:text="@string/btn_lihatdetai"
+                                        android:textSize="12sp" />
+                                </LinearLayout>
+
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="358dp"
+                                android:layout_height="295dp"
+                                android:layout_marginStart="10dp"
+                                android:layout_marginTop="10dp"
+                                app:cardBackgroundColor="@color/white"
+                                app:cardCornerRadius="12dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="20dp"
+                                            android:fontFamily="@font/poppinsbold"
+                                            android:text="Tobat dari minuman keras"
+                                            android:textColor="@color/biru"
+                                            android:textSize="14sp" />
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_marginStart="67dp"
+                                            android:src="@drawable/ic_heart" />
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_marginStart="6dp"
+                                            android:src="@drawable/ic_heart" />
+
+                                        <ImageView
+                                            android:layout_width="16dp"
+                                            android:layout_height="16dp"
+                                            android:layout_marginStart="6dp"
+                                            android:src="@drawable/ic_heart_silver" />
+                                    </LinearLayout>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:text="@string/metode" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="20dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="20dp"
+                                            android:text="@string/start2"
+                                            android:textSize="12sp" />
+
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="121dp"
+                                            android:text="@string/end2"
+                                            android:textSize="12sp" />
+
+                                    </LinearLayout>
+
+                                    <ImageView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="5dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:src="@drawable/progress_bar2" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="@font/poppinsbold"
+                                        android:text="Target Harian"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="2dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="Mengurangi konsumsi miras"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="10dp"
+                                        android:fontFamily="@font/poppinsbold"
+                                        android:text="Note :"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="2dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:text="TOBAT KAWAN TOBATTT !! INGET KESEHATAN JUGA"
+                                        android:textColor="@color/silver"
+                                        android:textSize="12sp" />
+
+                                    <Button
+                                        android:id="@+id/btn_detail2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="20dp"
+                                        android:layout_marginTop="15dp"
+                                        android:layout_marginEnd="20dp"
+                                        android:backgroundTint="@color/biru"
+                                        android:text="@string/btn_lihatdetai"
+                                        android:textSize="12sp" />
+
+                                </LinearLayout>
+
+
+                            </androidx.cardview.widget.CardView>
 
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
-                                android:orientation="horizontal">
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginStart="20dp"
-                                    android:fontFamily="@font/poppinsbold"
-                                    android:text="Tobat dari minuman keras"
-                                    android:textColor="@color/biru"
-                                    android:textSize="14sp" />
+                                android:background="@drawable/garis_putus_putus2"
+                                android:layout_gravity="center"
+                                android:orientation="vertical"
+                                android:layout_marginStart="10dp">
 
                                 <ImageView
-                                    android:layout_width="16dp"
-                                    android:layout_height="16dp"
-                                    android:layout_marginStart="67dp"
-                                    android:src="@drawable/ic_heart" />
-
-                                <ImageView
-                                    android:layout_width="16dp"
-                                    android:layout_height="16dp"
-                                    android:layout_marginStart="6dp"
-                                    android:src="@drawable/ic_heart" />
-
-                                <ImageView
-                                    android:layout_width="16dp"
-                                    android:layout_height="16dp"
-                                    android:layout_marginStart="6dp"
-                                    android:src="@drawable/ic_heart_silver" />
-                            </LinearLayout>
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:text="@string/metode" />
-
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="20dp"
-                                android:orientation="horizontal">
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="20dp"
+                                    android:src="@drawable/ic_tamabah_bulat"/>
 
                                 <TextView
-                                    android:layout_width="wrap_content"
+                                    android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginStart="20dp"
-                                    android:text="@string/start2"
-                                    android:textSize="12sp" />
-
-                                <TextView
-                                    android:layout_width="wrap_content"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginStart="121dp"
-                                    android:text="@string/end2"
-                                    android:textSize="12sp" />
+                                    android:text="Tambah plan lainnya"
+                                    android:textSize="12sp"
+                                    android:textColor="@color/ungu"
+                                    android:fontFamily="@font/poppinsregular"
+                                    android:textAlignment="center"
+                                    android:layout_marginTop="5dp"/>
 
                             </LinearLayout>
-
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="5dp"
-                                android:layout_marginEnd="20dp"
-                                android:src="@drawable/progress_bar2" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
-                                android:fontFamily="@font/poppinsbold"
-                                android:text="Target Harian"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="2dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="Mengurangi konsumsi miras"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="10dp"
-                                android:fontFamily="@font/poppinsbold"
-                                android:text="Note :"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <TextView
-                                android:layout_width="wrap_content"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="2dp"
-                                android:fontFamily="@font/poppinsregular"
-                                android:text="TOBAT KAWAN TOBATTT !! INGET KESEHATAN JUGA"
-                                android:textColor="@color/silver"
-                                android:textSize="12sp" />
-
-                            <Button
-                                android:id="@+id/btn_detail2"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginStart="20dp"
-                                android:layout_marginTop="15dp"
-                                android:layout_marginEnd="20dp"
-                                android:backgroundTint="@color/biru"
-                                android:text="@string/btn_lihatdetai"
-                                android:textSize="12sp" />
-
                         </LinearLayout>
+                    </HorizontalScrollView>
 
-
-                    </androidx.cardview.widget.CardView>
+                    <TextView
+                        android:id="@+id/selesai"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="Selesai"
+                        android:textColor="@color/biru"
+                        android:textSize="16sp" />
 
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:background="@drawable/garis_putus_putus2"
-                        android:layout_gravity="center"
-                        android:orientation="vertical"
-                        android:layout_marginStart="10dp">
-
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_marginTop="20dp"
-                            android:src="@drawable/ic_tamabah_bulat"/>
+                        android:layout_marginStart="26dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginEnd="26dp"
+                        android:background="@drawable/frame_garisgaris">
 
                         <TextView
-                            android:layout_width="match_parent"
+                            android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Tambah plan lainnya"
-                            android:textSize="12sp"
-                            android:textColor="@color/ungu"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="79dp"
                             android:fontFamily="@font/poppinsregular"
-                            android:textAlignment="center"
-                            android:layout_marginTop="5dp"/>
+                            android:text="Belum ada plan terselesaikan"
+                            android:textColor="@color/ungu"
+                            android:textSize="12sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="30dp">
 
                     </LinearLayout>
                 </LinearLayout>
-            </HorizontalScrollView>
+            </ScrollView>
 
-            <TextView
-                android:id="@+id/selesai"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="16dp"
-                android:layout_marginTop="20dp"
-                android:fontFamily="@font/poppinsbold"
-                android:text="Selesai"
-                android:textColor="@color/biru"
-                android:textSize="16sp" />
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="26dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="26dp"
-                android:background="@drawable/frame_garisgaris">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:layout_marginStart="79dp"
-                    android:fontFamily="@font/poppinsregular"
-                    android:text="Belum ada plan terselesaikan"
-                    android:textColor="@color/ungu"
-                    android:textSize="12sp" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="30dp">
-
-            </LinearLayout>
 
 
         </LinearLayout>
 
-    </ScrollView>
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
