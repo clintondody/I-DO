@@ -27,11 +27,15 @@
         20 menit setelah rokok terakhir Dampak positif dari berhenti merokok dimulai sejak 20 menit setelah rokok terakhir. Tekanan darah dan denyut nadi Anda akan kembali pada level normal.
     </string>
     <string name="metode"><font color='#827D85'>Metode</font> : <font color='#827D85'><b>Mengurangi Intensitas</b></font> </string>
+
+    <string name="metode2"><font color='#827D85'>Metode</font> : <font color='#827D85'><b>Langsung Berhenti</b></font> </string>
     <string name="start"><font color='#916DD5'>Start</font> : <font color='#916DD5'><b>8 Des 2022</b></font> </string>
     <string name="end"><font color='#916DD5'>End</font> : <font color='#916DD5'><b>6 Feb 2023</b></font> </string>
 
     <string name="start2"><font color='#916DD5'>Start</font> : <font color='#916DD5'><b>1 Des 2022</b></font> </string>
     <string name="end2"><font color='#916DD5'>End</font> : <font color='#916DD5'><b>31 Des 2022</b></font> </string>
+
+    <string name="end3"><font color='#916DD5'>End</font> : <font color='#916DD5'><b>Dijeda</b></font> </string>
 
     <string-array name="jenis_adiksi">
         <item>Rokok</item>

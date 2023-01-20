@@ -47,5 +47,11 @@ class PlanFragment : Fragment() {
             startActivity(btndetail)
         }
 
+        val btnlihatdetail2 : Button = view.findViewById(R.id.btn_detail2)
+        btnlihatdetail2.setOnClickListener {
+            val btndetail2 = Intent(this@PlanFragment.activity, detail_plan2_Activity::class.java)
+            startActivity(btndetail2)
+        }
+
     }
 }

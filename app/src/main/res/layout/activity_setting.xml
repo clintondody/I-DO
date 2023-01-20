@@ -96,7 +96,7 @@
             android:layout_marginBottom="15dp"
             android:fontFamily="@font/poppinsregular"
             android:textColor="@color/black"
-            android:text="Riset password" />
+            android:text="Reset password" />
     </androidx.cardview.widget.CardView>
 
 
