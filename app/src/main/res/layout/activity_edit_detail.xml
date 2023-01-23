@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_latar"
+    tools:context=".Edit_Detail_Activity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:background="@color/white"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView69"
+                android:layout_width="8dp"
+                android:layout_height="14dp"
+                android:src="@drawable/ic_kembali"
+                android:layout_gravity="center"
+                android:layout_marginStart="27dp" />
+
+            <TextView
+                android:id="@+id/textView123"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Edit plan"
+                android:layout_marginTop="14dp"
+                android:fontFamily="@font/poppinsbold"
+                android:textColor="@color/biru"
+                android:textSize="16sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="70dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView124"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="80dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppinsbold"
+                    android:textColor="@color/biru"
+                    android:textSize="15dp"
+                    android:text="Konfirmasi" />
+
+                <ImageView
+                    android:id="@+id/imageView70"
+                    android:layout_width="20dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    app:srcCompat="@drawable/centang_hitam" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/bg_putih"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/textView125"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/poppinsbold"
+                            android:text="Berhenti merokok"
+                            android:textColor="@color/biru"
+                            android:textSize="20dp" />
+
+                        <ImageView
+                            android:id="@+id/imageView73"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="20dp"
+                            app:srcCompat="@drawable/rokok" />
+
+                    </LinearLayout>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="20dp"
+                        app:cardCornerRadius="12dp"
+                        android:background="@color/putih">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView130"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:fontFamily="@font/poppinsbold"
+                                android:textColor="@color/black"
+                                android:text="Ubah Metode" />
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginTop="15dp"
+                                app:cardCornerRadius="12dp"
+                                android:background="@color/putih">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:orientation="vertical">
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="16dp"
+                                        android:orientation="horizontal">
+
+                                        <TextView
+                                            android:id="@+id/textView131"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:fontFamily="@font/poppinsregular"
+                                            android:layout_marginStart="16dp"
+                                            android:layout_marginEnd="16dp"
+                                            android:textColor="@color/black"
+                                            android:text="Mengulang Intensitas" />
+
+                                        <RadioButton
+                                            android:id="@+id/radioButton"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="80dp"/>
+
+                                    </LinearLayout>
+
+                                    <androidx.cardview.widget.CardView
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginBottom="16dp"
+                                        app:cardCornerRadius="12dp"
+                                        android:background="@drawable/bg_putih">
+
+                                        <LinearLayout
+                                            android:layout_width="match_parent"
+                                            android:layout_height="50dp"
+                                            android:gravity="center"
+                                            android:orientation="vertical">
+
+                                            <TextView
+                                                android:id="@+id/textView132"
+                                                android:layout_width="match_parent"
+                                                android:layout_height="wrap_content"
+                                                android:layout_marginEnd="5dp"
+                                                android:layout_marginStart="5dp"
+                                                android:textAlignment="center"
+                                                android:fontFamily="@font/poppinsregular"
+                                                android:textSize="13dp"
+                                                android:text="Berapa kali konsumsi adiksimu perminggu?" />
+                                        </LinearLayout>
+                                    </androidx.cardview.widget.CardView>
+
+
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                app:cardCornerRadius="12dp"
+                                android:layout_marginTop="16dp">
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:background="@drawable/bg_putih"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView126"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="16dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:textColor="@color/black"
+                                        android:text="Berhenti Langsung" />
+
+                                    <RadioButton
+                                        android:id="@+id/radioButton2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="118dp"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                            <androidx.cardview.widget.CardView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="16dp"
+                                android:layout_marginEnd="16dp"
+                                android:layout_marginTop="16dp"
+                                app:cardCornerRadius="12dp"
+                                android:layout_marginBottom="16dp">
+
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:background="@drawable/bg_putih"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:id="@+id/textView129"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="16dp"
+                                        android:fontFamily="@font/poppinsregular"
+                                        android:textColor="@color/black"
+                                        android:text="Menunda Waktu Konsumsi" />
+
+                                    <RadioButton
+                                        android:id="@+id/radioButton5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="60dp"/>
+                                </LinearLayout>
+                            </androidx.cardview.widget.CardView>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView134"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:fontFamily="@font/poppinsbold"
+                        android:text="Note :" />
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="5dp"
+                        app:cardCornerRadius="12dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:gravity="center"
+                            android:background="@drawable/bg_putih"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView135"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:fontFamily="@font/poppinsregular"
+                                android:layout_marginStart="16dp"
+                                android:text="Isi note untuk dirimu" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="20dp"
+                        app:cardCornerRadius="12dp"
+                        android:background="@drawable/bg_putih">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/textView136"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="15dp"
+                                android:layout_marginStart="16dp"
+                                android:fontFamily="@font/poppinsbold"
+                                android:textColor="@color/black"
+                                android:text="Pengingat" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:orientation="horizontal">
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    app:cardCornerRadius="12dp"
+                                    android:background="@color/putih"
+                                    android:layout_marginStart="16dp">
+
+                                    <LinearLayout
+                                        android:layout_width="45dp"
+                                        android:layout_height="40dp"
+                                        android:gravity="center"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView127"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="5dp"
+                                            android:textAlignment="center"
+                                            android:fontFamily="@font/poppinsregular"
+                                            android:textColor="@color/black"
+                                            android:textSize="12dp"
+                                            android:text="06.00" />
+
+                                    </LinearLayout>
+
+                                </androidx.cardview.widget.CardView>
+
+                                <androidx.cardview.widget.CardView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    app:cardCornerRadius="12dp"
+                                    android:layout_marginStart="15dp">
+
+                                    <LinearLayout
+                                        android:layout_width="45dp"
+                                        android:layout_height="40dp"
+                                        android:gravity="center"
+                                        android:background="@color/biru"
+                                        android:orientation="vertical">
+
+                                        <TextView
+                                            android:id="@+id/textView133"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginStart="5dp"
+                                            android:layout_marginEnd="5dp"
+                                            android:textAlignment="center"
+                                            android:fontFamily="@font/poppinsregular"
+                                            android:textSize="12dp"
+                                            android:textColor="@color/putih"
+                                            android:text="21.00" />
+                                    </LinearLayout>
+                                </androidx.cardview.widget.CardView>
+
+                                <ImageView
+                                    android:id="@+id/imageButton"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="20dp"
+                                    app:srcCompat="@drawable/tambah_ungu" />
+
+                                <TextView
+                                    android:id="@+id/textView137"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginStart="10dp"
+                                    android:fontFamily="@font/poppinsbold"
+                                    android:textColor="@color/ungu"
+                                    android:text="Tambah" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
