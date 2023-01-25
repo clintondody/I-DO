@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg_latar"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Fragments.Tips">
 
@@ -13,68 +14,244 @@
 
 
 
-        <com.google.android.material.textfield.TextInputLayout
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            android:layout_marginEnd="16dp">
 
-            <AutoCompleteTextView
-                android:id="@+id/multiAutoCompleteTextView"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/pmo"
+                android:onClick="expand"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/putih"
-                android:text="Tips Berhenti PMO " />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="match_parent">
 
-        <com.google.android.material.textfield.TextInputLayout
+                <LinearLayout
+                    android:id="@+id/layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Tips Berhenti PMO "
+                        android:textColor="@color/black"
+                        android:background="@color/putih"
+                        android:fontFamily="@font/poppinsregular"/>
+
+                    <ImageView
+                        android:id="@+id/detailsImage"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/tips_pmo"/>
+
+                    <TextView
+                        android:id="@+id/detailsText"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/berhenti_pmo"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="gone"
+                        android:fontFamily="@font/poppinsregular"/>
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            android:layout_marginEnd="16dp">
 
-            <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView2"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/rokok"
+                android:onClick="expand"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/putih"
-                android:text="Tips Berhenti Rokok " />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="match_parent">
 
-        <com.google.android.material.textfield.TextInputLayout
+                <LinearLayout
+                    android:id="@+id/layout2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Tips Berhenti Rokok "
+                        android:textColor="@color/black"
+                        android:background="@color/putih"
+                        android:fontFamily="@font/poppinsregular"/>
+
+                    <ImageView
+                        android:id="@+id/detailsImage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/tips_rokok"/>
+
+                    <TextView
+                        android:id="@+id/detailsText2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/berhenti_merokok"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="gone"
+                        android:fontFamily="@font/poppinsregular"/>
+
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            android:layout_marginEnd="16dp">
 
-            <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView3"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/alkohol"
+                android:onClick="expand"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/putih"
-                android:text="Tips Berhenti Alkohol "  />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="match_parent">
 
-        <com.google.android.material.textfield.TextInputLayout
+                <LinearLayout
+                    android:id="@+id/layout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Tips Berhenti Alkohol "
+                        android:textColor="@color/black"
+                        android:background="@color/putih"
+                        android:fontFamily="@font/poppinsregular"/>
+
+                    <ImageView
+                        android:id="@+id/detailsImage3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/tips_alkohol"/>
+
+                    <TextView
+                        android:id="@+id/detailsText3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/berhenti_alkohol"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="gone"
+                        android:fontFamily="@font/poppinsregular"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
             android:layout_marginStart="16dp"
-            android:layout_marginEnd="16dp"
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+            android:layout_marginEnd="16dp">
 
-            <AutoCompleteTextView
-                android:id="@+id/autoCompleteTextView"
+            <androidx.cardview.widget.CardView
+                android:id="@+id/sosmed"
+                android:onClick="expand"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:background="@color/putih"
-                android:text="Tips Berhenti Media Sosial " />
-        </com.google.android.material.textfield.TextInputLayout>
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/layout4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:text="Tips Berhenti Media Sosial "
+                        android:textColor="@color/black"
+                        android:background="@color/putih"
+                        android:fontFamily="@font/poppinsregular"/>
+
+                    <ImageView
+                        android:id="@+id/detailsImage4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginTop="5dp"
+                        android:visibility="gone"
+                        app:srcCompat="@drawable/tips_sosmed"/>
+
+                    <TextView
+                        android:id="@+id/detailsText4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/berhenti_media_sosial"
+                        android:layout_marginTop="10dp"
+                        android:justificationMode="inter_word"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginEnd="16dp"
+                        android:visibility="gone"
+                        android:fontFamily="@font/poppinsregular"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
 
         <TextView
             android:id="@+id/textView17"
@@ -86,10 +263,6 @@
             android:fontFamily="@font/poppinsbold"
             android:textColor="@color/black"
             android:text="Tips Video" />
-
-
-
-
 
         <HorizontalScrollView
             android:layout_width="match_parent"

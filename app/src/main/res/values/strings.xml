@@ -50,5 +50,10 @@
         <item>Gula</item>
         <item>Media Sosial</item>
     </string-array>
+
+    <string name="berhenti_pmo">Jauhi semua hal yang membuat nafsumu terpicu, Contohnya stop menonton konten di Instagram/Tiktok yang menampilkan gambar-gambar cewek joget-joget dengan pakaian minim. Bila perlu uninstall saja aplikasi tersebut jika dirasa tidak ada tontonan berjenis lain yang kamu lihat pada aplikasi tersebut, dan juga UNINSTALL VPNMU!!</string>
+    <string name="berhenti_merokok">Belilah permen untuk menggantikan rokok jikalau dirimu merasa mulutmu sedang dalam kondisi masam, atau inhaler jika merasa butuh sesuatu yang bisa menyejukkan tenggorokanmu. Jauhi tongkronganmu yang sering menjebakmu untuk merokok jika mentalmu tidak kuat menghadapi godaan dari mereka!</string>
+    <string name="berhenti_alkohol">Temukan minuman favorit baru yang dapat menggantikan rasa dari alkohol seperti minum jus buah yang tentu saja lebih baik untuk kesehatan. Lakukan hobimu untuk menggantikan perasaan kekurangan ketika tidak mengonsumsi alkohol. Jauhi tongkronganmu yang sering menjebakmu untuk minum alkohol jika mentalmu tidak kuat menghadapi godaan dari mereka!</string>
+    <string name="berhenti_media_sosial">Sadari aktivitasmu setiap harinya baik yang secara habitual dan impulsif maupun yang sudah dipikirkan sebelumnya. Ketika merasa bosan jangan langsung membuka Sosial Media, coba tahan dirimu dari kebiasaan untuk membuka dan scroll sosmed setiap saat. Lakukan aktivitas seperti membersihkan rumah, merapihkan kamar, mencuci piring yang dapat menggantikan kebosananmu ketika tidak mengonsumsi sosmed. Bila perlu, kamu dapat menguninstall semua aplikasi sosmed yang sekiranya tidak penting atau memberi peraturan pada dirimu untuk hanya boleh membukanya dari laptop saja hanya selama beberapa menit. Jika masih susah untuk berhenti, kamu dapat mencoba cara menonaktifkan akun sosmedmu atau bahkan menghapusnya.</string>
     <string name="title_activity_profil_pencapaian">Profil_Pencapaian_Activity</string>
 </resources>
