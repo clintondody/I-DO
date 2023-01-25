@@ -44,10 +44,13 @@
     <string name="end5"><font color='#916DD5'>End</font> : <font color='#916DD5'><b>13 Feb 2023</b></font> </string>
 
     <string-array name="jenis_adiksi">
-        <item>Rokok</item>
         <item>Alkohol</item>
         <item>Game</item>
+        <item>Rokok</item>
         <item>Gula</item>
+        <item>Snack</item>
+        <item>Pornografi(PMO)</item>
+        <item>Obat-obatan</item>
         <item>Media Sosial</item>
     </string-array>
 
