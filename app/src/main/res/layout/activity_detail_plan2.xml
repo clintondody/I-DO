@@ -149,12 +149,12 @@
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/heart_abu"
+                        android:src="@drawable/heart_merah"
                         android:layout_marginStart="109dp" />
                     <ImageView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:src="@drawable/heart_abu"
+                        android:src="@drawable/heart_merah"
                         android:layout_marginStart="12sp" />
                     <ImageView
                         android:layout_width="wrap_content"

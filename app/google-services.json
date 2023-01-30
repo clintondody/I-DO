@@ -1,70 +1,41 @@
 {
   "project_info": {
-    "project_number": "212475143769",
-    "project_id": "i-do-3140f",
-    "storage_bucket": "i-do-3140f.appspot.com"
+    "project_number": "541226407562",
+    "project_id": "i-do-fac24",
+    "storage_bucket": "i-do-fac24.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:212475143769:android:9b216d8fb222122b893348",
-        "android_client_info": {
-          "package_name": "com.company.I.Do.app"
-        }
-      },
-      "oauth_client": [
-        {
-          "client_id": "212475143769-igs5ia9beor0er5ht4qqs2oc18trag2d.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.company.I.Do.app",
-            "certificate_hash": "3aeddd3b11271abaef5a34e5211854f494d6b255"
-          }
-        },
-        {
-          "client_id": "212475143769-4lnljmb8rsel4r4pv073ri5msoolqk11.apps.googleusercontent.com",
-          "client_type": 3
-        }
-      ],
-      "api_key": [
-        {
-          "current_key": "AIzaSyChqlUYrGT7FuA4dqzC1k8hWEyd3yD0ZxM"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": [
-            {
-              "client_id": "212475143769-4lnljmb8rsel4r4pv073ri5msoolqk11.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:212475143769:android:42f09c4ddff03f0c893348",
+        "mobilesdk_app_id": "1:541226407562:android:99ad61bb62d9cd04583f73",
         "android_client_info": {
           "package_name": "kampus.merdeka.I.Do.app"
         }
       },
       "oauth_client": [
         {
-          "client_id": "212475143769-4lnljmb8rsel4r4pv073ri5msoolqk11.apps.googleusercontent.com",
+          "client_id": "541226407562-9nopeipccpeedb28p48i3j4qlj7d0tsq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kampus.merdeka.I.Do.app",
+            "certificate_hash": "8e66f9f10128ed524e1f8d68c1f1b46338796997"
+          }
+        },
+        {
+          "client_id": "541226407562-t3gpghq9lihhr6igd68lu45r83bvh2mv.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyChqlUYrGT7FuA4dqzC1k8hWEyd3yD0ZxM"
+          "current_key": "AIzaSyCTrUesX4GFaL4uln5mN7pqDrK_TVR5BcA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "212475143769-4lnljmb8rsel4r4pv073ri5msoolqk11.apps.googleusercontent.com",
+              "client_id": "541226407562-t3gpghq9lihhr6igd68lu45r83bvh2mv.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

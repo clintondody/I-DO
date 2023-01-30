@@ -24,7 +24,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:layout_marginTop="114dp"
-                app:srcCompat="@drawable/bg_ido" />
+                android:src="@drawable/bg_ido" />
 
             <EditText
                 android:id="@+id/email"
@@ -53,6 +53,7 @@
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:layout_width="match_parent"
+                    android:id="@+id/email_login"
                     android:layout_height="wrap_content" />
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -65,8 +66,6 @@
                 android:layout_marginEnd="16dp"
                 android:layout_marginTop="30dp"
                 app:boxBackgroundMode="outline"
-                app:counterEnabled="true"
-                app:counterMaxLength="16"
                 android:hint="Password"
                 app:boxBackgroundColor="@color/white"
                 app:passwordToggleEnabled="true">
@@ -75,6 +74,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="textPassword"
+                    android:id="@+id/password_login"
                     android:maxLength="16"/>
             </com.google.android.material.textfield.TextInputLayout>
 
@@ -104,13 +104,14 @@
                 android:textSize="14sp" />
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btlogin"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:backgroundTint="@color/biru"
                 android:layout_marginTop="32dp"
                 android:layout_marginStart="16dp"
-                android:padding="14dp"
+                android:textColor="@color/white"
+                android:padding="18dp"
                 android:layout_marginEnd="16dp"
                 android:text="Login"/>
 
@@ -119,7 +120,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal"
-                android:padding="13dp"
+                android:padding="10dp"
                 android:layout_marginStart="16dp"
                 android:layout_marginEnd="16dp"
                 android:background="@drawable/btn_ungu"
@@ -140,7 +141,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:layout_marginStart="10dp"
-                    app:srcCompat="@drawable/buttom_google" />
+                    android:src="@drawable/buttom_google" />
             </LinearLayout>
 
             <LinearLayout
@@ -187,7 +188,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="3dp"
                     android:layout_marginTop="8dp"
-                    app:srcCompat="@drawable/bg_garis" />
+                    android:src="@drawable/bg_garis" />
 
                 <TextView
                     android:id="@+id/textView28"
@@ -205,7 +206,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="8dp"
-                    app:srcCompat="@drawable/bg_garis" />
+                    android:src="@drawable/bg_garis" />
             </LinearLayout>
 
 
